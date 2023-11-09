@@ -13,7 +13,7 @@ public class FleetOfCars {
         for (Car car : fleet) {
             totalFee += car.getRegistrationFee();
         }
-        return "The total registration fee for the whole fleet is " + totalFee + ", bro";
+        return "The total registration fee for the whole fleet is " + totalFee + " DKK, bro";
     }
 
     @Override
