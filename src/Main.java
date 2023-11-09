@@ -15,7 +15,6 @@ public class Main {
         fleet.addCar(volkswagen);
         fleet.addCar(porsche);
 
-
         System.out.println(fleet.toString());
         System.out.println(fleet.getTotalRegistrationFeeForFleet());
     }

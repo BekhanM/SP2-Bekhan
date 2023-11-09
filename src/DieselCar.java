@@ -41,6 +41,6 @@ public class DieselCar extends AFuelCar {
 
     @Override
     public String toString() {
-        return super.toString() + "FuelType: " + getFuelType() + "\nRegistrationFee: " + getRegistrationFee() + " DKK\nParticleFilter: " + hasParticleFilter() + "\n";
+        return super.toString() + "FuelType: " + getFuelType() + "\nParticleFilter: " + hasParticleFilter() + "\nRegistrationFee: " + getRegistrationFee() + " DKK\n";
     }
 }
